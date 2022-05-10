@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 
 export const FooterWrap = styled.div`
-    padding: 20px 20px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +45,9 @@ export const SocialLogo = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        color: #8b4fc8;
+        color: #112e51;
+        background-color: #FFFFFF;
+    
       }
 `;
 

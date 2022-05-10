@@ -31,24 +31,24 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-        <Nav scrollNav={scrollNav}>
+        <Nav scrollNav={scrollNav} role="navigation">
 
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to='/'>
-              Siegfried's Accessible Website
+              Siegfried's Accessible Site
             </NavLogo>
 
           
             <NavMenu>
-              <NavBtn>
+              <NavBtn role="button">
                 <NavBtnLink to='/'>Home</NavBtnLink>
               </NavBtn>
 
-              <NavBtn>
+              <NavBtn role="button">
                 <NavBtnLink to='/Hall'>Hall of Fame</NavBtnLink>
               </NavBtn>
 
-              <NavBtn>
+              <NavBtn role="button">
                 <NavBtnLink to='/handyinventions'>Handy Inventions</NavBtnLink>
               </NavBtn>
               

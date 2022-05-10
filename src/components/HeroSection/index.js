@@ -1,11 +1,8 @@
 import React from 'react';
 
-// import Video from '../../video/hero.mp4';
 
 import {
   HeroContainer,
-  HeroBg,
-//   VideoBg,
   HeroContent,
   HeroH1,
   HeroP
@@ -17,10 +14,8 @@ function HeroSection() {
  
 
   return (
-    <HeroContainer>
-        <HeroBg>
-          {/* <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' /> */}
-        </HeroBg>
+    <HeroContainer style={{background: "#112e51"}}>
+        
 
         <HeroContent>
           <HeroH1>My Accessible Website</HeroH1>

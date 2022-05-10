@@ -16,13 +16,13 @@ const toggleHome = () => {
 
 const Footer = () => {
     return (
-        <div className="row " style={{background: "#000000"}}>
+        <div className="row " style={{background: "#046b99"}}>
             <FooterWrap>
                 
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            Siegfried's Accessible Website
+                            Siegfried's Accessible Site
                         </SocialLogo>
                         
                         <WebsiteRights>

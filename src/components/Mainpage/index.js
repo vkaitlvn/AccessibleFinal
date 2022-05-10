@@ -25,6 +25,11 @@ const Mainpage = ({
                 <div className="container-lg">
                     <div className="row px-4 justify-content-center align-items-center">
                     <HeadingMain>A Few Illustrations</HeadingMain>
+                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
 
 
                         {/* All alt tags are present */}
@@ -50,6 +55,10 @@ const Mainpage = ({
                         
                     </div>
 
+                    
+                    <br/>
+                    <br/>
+                    <br/>
                     <br/>
 
                     <div className="row px-4 justify-content-center align-items-center">
@@ -73,6 +82,9 @@ const Mainpage = ({
                         
                     </div>
 
+                    <br/>
+                    <br/>
+                    <br/>
                     <br/>
 
                     <div className="row px-4 justify-content-center align-items-center">
