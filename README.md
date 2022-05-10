@@ -7,4 +7,4 @@ Requirements were met by utilizing: http://web-accessibility.carnegiemuseums.org
 
 Bootstrap also ensures an efficient way for web developers to create accessible websites across all devices used.
 
-The accessibility of this site can be checked using Waivtool.
+The accessibility of this site can be checked using Waivtool.# AccessibleFinal
